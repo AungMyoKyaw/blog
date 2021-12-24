@@ -1,2 +1,5 @@
 User-agent: *
-Allow: /
+Sitemap: https://blog.aungmyokyaw.com/sitemap.xml
+Disallow: /ghost/
+Disallow: /p/
+Disallow: /email/
