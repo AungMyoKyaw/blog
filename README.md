@@ -1,2 +1,5 @@
-# blog
-blog
+# Aung Myo Kyaw
+
+> blog
+
+https://blog.aungmyokyaw.com
