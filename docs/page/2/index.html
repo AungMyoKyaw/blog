@@ -9,7 +9,7 @@
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=b2ad880e44" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=f3f5a79199" />
 
 	<script>
 			var siteUrl = 'https://blog.aungmyokyaw.com';
@@ -30,9 +30,17 @@
 	</script>
 
 
-		<script>localStorage.setItem('attila_theme', 'light');</script>
-		<style>.js-theme {display:none!important;}</style>
 
+			<style>
+				.theme-dark:root {
+				  --ghost-accent-color: #ff6633;
+				}
+				@media (prefers-color-scheme: dark) {
+				  html:not(.theme-light):root {
+				    --ghost-accent-color: #ff6633;
+				  }
+				}
+			</style>
 
 	<link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="canonical" href="https://blog.aungmyokyaw.com/page/2/" />
@@ -41,8 +49,8 @@
     <meta name="generator" content="Ghost 4.43" />
     <link rel="alternate" type="application/rss+xml" title="Aung Myo Kyaw" href="https://blog.aungmyokyaw.com/rss/" />
     
-    <script defer src="/public/cards.min.js?v=b2ad880e44"></script>
-    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=b2ad880e44">
+    <script defer src="/public/cards.min.js?v=f3f5a79199"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=f3f5a79199">
     <style type="text/css">
   .footer-cta,
     a.gh-head-button,
@@ -217,7 +225,7 @@
 
 	</section>
 
-	<script type="text/javascript" src="/assets/js/script.js?v=b2ad880e44"></script>
+	<script type="text/javascript" src="/assets/js/script.js?v=f3f5a79199"></script>
 
 	
 
